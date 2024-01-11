@@ -5,7 +5,7 @@
 
   
 
-const StoryCard:React.FC<cardsData> = ({name,time,description,image}:cardsData) => {
+const StoryCard:React.FC<cardsData> = ({name,time,image}:cardsData) => {
     return ( 
         <div className="d-flex p-3 bg-white shadow-2 mb-2 rounded border-bottom ">
         <img

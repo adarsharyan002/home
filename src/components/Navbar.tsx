@@ -1,7 +1,5 @@
 // Initialization for ES Users
-import { Dropdown, initMDB } from "mdb-ui-kit";
 
-initMDB({ Dropdown });
 
 import logo from '../assets/logo2.png'
 const Navbar = () => {
@@ -98,7 +96,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item dropdown me-3 me-lg-1">
             <a
-              data-mdb-dropdown-init
+             
               className="nav-link dropdown-toggle hidden-arrow"
               href="#"
               id="navbarDropdownMenuLink"
