@@ -55,13 +55,13 @@ const Navbar = () => {
           <li className="nav-item me-3 me-lg-1">
             <a className="nav-link d-sm-flex align-items-sm-center" href="#">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (32).webp"
                 className="rounded-circle"
                 height="22"
                 alt="Black and White Portrait of a Man"
                 loading="lazy"
               />
-              <strong className="d-none d-sm-block ms-1">John</strong>
+              <strong className="d-none d-sm-block ms-1">Adarsh</strong>
             </a>
           </li>
           <li className="nav-item me-3 me-lg-1">

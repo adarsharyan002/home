@@ -1,8 +1,5 @@
 
-import {
-    MDBIcon,
-    MDBTypography,
-  } from "mdb-react-ui-kit";
+
 
   import { cardsData } from "../../types/types";
 
@@ -33,21 +30,25 @@ const StoryCard:React.FC<cardsData> = ({name,time,description,image}:cardsData) 
               
               </h6>
             </a>
-            <p style={{ lineHeight: "1.2" }}>{description}</p>
-            <MDBTypography
-              listUnStyled
-              className="d-flex justify-content-start gap-3 mb-0 pe-xl-5"
-            >
-              <li>
-                <MDBIcon far icon="comment" />
-              </li>
-             
-              <li>
-                <MDBIcon far icon="heart" />
-                <span className="small ps-2">35</span>
-              </li>
-             
-            </MDBTypography>
+
+            <div className=" rounded-3 p-2 mt-2">
+              <div className="d-flex">
+                
+                <div >
+                  <p className="text-secondary m-1">First posted at 13.10 on 12th Jan 2020 </p>
+                  <p className="text-secondary m-1">Last edited at 13.10 on 13th feb 2020 </p>
+                  <p className="btn btn-sm rounded-pill bg-success bi bi-clipboard-fill">&nbsp;PHQ9</p>
+                </div>
+              </div>
+              <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eaque.</p></div>
+              <hr />
+              <div className="d-flex justify-content-between">
+                <img src="./resource/image/boy1.png" alt="" />
+                <input type="text" className="rounded-4 form-control w-75" placeholder="Write a Comment..." />
+                <button style={{background:'#EE364A'}} className="btn text-white shadow-0  rounded-sm ">Post</button>
+              </div>
+            </div>
+           
           </div>
         </div>
       </div>

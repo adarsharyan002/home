@@ -21,7 +21,7 @@ export default function ProfilePage() {
                   className="rounded-circle"
                   style={{ width: '3rem' }}
                   fluid />
-                <p className="text-muted mb-1">Adarsh ARyan</p>
+                <p className="text-muted mb-1">Adarsh Aryan</p>
                 
                   <ProfileAccordion/>
 

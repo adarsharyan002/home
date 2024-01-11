@@ -7,6 +7,8 @@ import People from "../components/People";
 import Navbar from "../components/Navbar";
 
 const Homepage = () => {
+
+   
     return ( 
 
         <>
