@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { BsCalendarEventFill } from "react-icons/bs";
 import Modal from './Modal';
+import { Link } from 'react-router-dom';
     
 
 const Events = () => {
@@ -34,7 +35,7 @@ const Events = () => {
             <div className='d-flex align-items-center justify-content-between'>
         <div className='d-flex align-items-center gap-2 cursor-pointer'>
         <BsCalendarEventFill id='calendar' />
-        <p className="color m-0 ">Contacts</p>
+        <Link to='/project'><p className="color m-0 ">Projects</p></Link>
        </div>
        <div onClick={handleOpenModal} className='m-0 fs-5 p-1 cursor-pointer custom-hover-bg'>
        <span><i className="fas fa-plus-circle fa-md"></i></span>
@@ -46,7 +47,7 @@ const Events = () => {
        <div className=' d-flex align-items-center justify-content-between'>
         <div className='d-flex align-items-center gap-2 cursor-pointer'>
         <BsCalendarEventFill id='calendar' />
-        <p className="color m-0 ">Projects</p>
+        <p className="color m-0 ">Contact</p>
        </div>
        <div className='m-0 fs-5 p-1 cursor-pointer custom-hover-bg'>
        <span><i className="fas fa-plus-circle fa-md"></i></span>

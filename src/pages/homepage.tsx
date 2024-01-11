@@ -12,7 +12,7 @@ const Homepage = () => {
     return ( 
 
         <>
-        <Navbar/>
+        
         <Container fluid>
             
             <Row>
