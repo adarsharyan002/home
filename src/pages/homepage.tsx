@@ -4,6 +4,7 @@ import ProfilePage from "../components/ProfileCard";
 import Events from "../components/Events";
 import Followers from "../components/Followers";
 import People from "../components/People";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
 
@@ -28,6 +29,7 @@ const Homepage = () => {
                 </Col>
             </Row>
         </Container>
+        <Footer/>
         </>
     );
 }

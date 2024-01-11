@@ -1,7 +1,7 @@
 import Complogo from '../assets/compLogo.jpg'
 const Footer = () => {
   return (
-    <footer>
+    <footer className='mt-2'>
       <div id="footer-border-line"></div>
       <div className="d-flex flex-wrap justify-content-around">
         <div className="mt-4">
