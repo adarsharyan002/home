@@ -1,0 +1,51 @@
+.accordion-button {
+    font-size: 1rem !important;
+  }
+
+  .accordion-button.collapsed::after{
+    font-size: .88rem !important;
+    
+  }
+
+  .cursor-pointer:hover {
+    cursor: pointer;
+  }
+  /* .custom-hover-bg:hover {
+    background-color: #cccccc; 
+  } */
+  
+  .custom-accordion .accordion-button:not(.collapsed) {
+    background-color: transparent !important; /* Change it to any desired value or use 'transparent' to remove */
+}
+
+/* .custom-accordion .accordion-button:focus {
+    border: none !important;
+    border-color:red!important;
+} */
+
+:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+    
+  }
+
+  .accordion-button {
+    color:#337AB7 ;
+    font-weight: 500;
+   
+}
+.accordion-button:focus{
+    color: #337AB7;
+}
+
+a{
+    color:#337AB7;
+}
+
+.color{
+    color: #337AB7;
+}
+
+
+  
+
